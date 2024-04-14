@@ -74,8 +74,41 @@ setInterval(function(){
         },3000)
     
 
-
-
+        setInterval(function(){
+            document.body.style.height="100vh"
+            document.body.style.backgroundRepeat="no-repeat"
+            document.body.style.backgroundPosition="center"
+            document.body.style.backgroundSize="cover"
+            document.body.style.backgroundImage= "url('https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_2580,c_limit/BlackForest-Germany-GettyImages-147180370.jpg')"
+        },3000)
+        setInterval(function(){
+            document.body.style.height="100vh"
+            document.body.style.backgroundRepeat="no-repeat"
+            document.body.style.backgroundPosition="center"
+            document.body.style.backgroundSize="cover"
+            document.body.style.backgroundImage=  "url('https://t4.ftcdn.net/jpg/05/36/32/95/360_F_536329537_RblOApJIbTIPjNlROJrKKiJaFmceLJvZ.jpg')"
+        },6000)
+        setInterval(function(){
+            document.body.style.height="100vh"
+            document.body.style.backgroundRepeat="no-repeat"
+            document.body.style.backgroundPosition="center"
+            document.body.style.backgroundSize="cover"
+            document.body.style.backgroundImage= "url('https://media.istockphoto.com/id/1419410282/photo/silent-forest-in-spring-with-beautiful-bright-sun-rays.webp?b=1&s=612x612&w=0&k=20&c=C318sxgBBIO66E7vi_0Eu3lXHm9uRDauKvRgeyxY2O4=')"
+        },9000)
+        setInterval(function(){
+            document.body.style.height="100vh"
+            document.body.style.backgroundRepeat="no-repeat"
+            document.body.style.backgroundPosition="center"
+            document.body.style.backgroundSize="cover"
+            document.body.style.backgroundImage= "url('https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg')"
+        },12000)
+        setInterval(function(){
+            document.body.style.height="100vh"
+            document.body.style.backgroundRepeat="no-repeat"
+            document.body.style.backgroundPosition="center"
+            document.body.style.backgroundSize="cover"
+            document.body.style.backgroundImage= "url('https://t4.ftcdn.net/jpg/02/55/17/43/360_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg')"
+        },15000)
 
 
 
