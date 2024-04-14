@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Weather</title>
+</head>
+<body>
+    <div class="weather-app">
+     <div class="weather">
+        <div class="search">
+        <input type="text" placeholder="Enter City Name" spellcheck="false"/>
+        <button>
+            <img src="images/search.png" alt="search" class="search-icon">
+        </button>
+        </div>
+           <div class="error">
+
+               <span>Incorrect Country Name<span class="exclaim">!!!</span></span>
+           </div>
+        
+        <div class="weather-middle">
+         <img src="images/clear.png" alt="weather-image" class="weather-icon">
+            <div class="middle-last">
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">Lahore</h2>
+            </div>
+        </div>
+        <div class="weather-bottom">
+            <div class="bottom-left">
+                <img src="images/humidity.png" alt="humidity">
+                <div class="figures-humidity">
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div> 
+            </div>
+            <div class="bottom-right">
+             <img src="images/wind.png" alt="wind" >
+             <div class="figures-wind">
+                 <p class="wind">3.6 km/h</p>
+                 <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
