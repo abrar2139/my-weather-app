@@ -45,7 +45,7 @@ async function checkWeather(city) {
         weatherIcon.src= "images/drizzle.png"
     }
     else if (data.weather[0].main == "Smoke") {
-        weatherIcon.src= "images/smoke.png"
+        weatherIcon.src= "images/smoke1.png"
     }
     
     document.querySelector(".error").style.display="none"
