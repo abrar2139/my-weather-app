@@ -42,7 +42,7 @@ body{
     
         }
         .weather .weather-middle{
-            margin-top: 0px !important;
+            margin-top: 10px !important;
         }
         .weather .search .search-icon{
     
@@ -106,7 +106,7 @@ body{
         font-size: 25px;
     }
     .weather .weather-middle{
-        margin-top: 0px;
+        margin-top: 10px;
     }
    .weather .weather-middle .weather-icon{
         height: 160px ;
