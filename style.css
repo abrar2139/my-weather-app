@@ -20,7 +20,7 @@ body{
 }
 @media (max-width:300px) {
     .weather-app .weather{
-         width: 250px !important;
+         width: 95% !important;
      }
      .weather .search input{
         height: 50px !important;
@@ -29,10 +29,10 @@ body{
      height: 40px !important;
         width: 40px !important;
            }
-           .weather .weather-middle .weather-icon{
+           /* .weather .weather-middle .weather-icon{
             height: 180px !important ;
             width: 180px !important ;
-        }
+        } */
         .weather .weather-bottom img{
             height: 30px !important;
             width: 30px !important;
@@ -42,7 +42,7 @@ body{
     
         }
         .weather .weather-middle{
-            margin-top: 20px !important;
+            margin-top: 0px !important;
         }
         .weather .search .search-icon{
     
@@ -88,7 +88,7 @@ body{
         font-size: 18px !important;
     }
    .weather-app .weather{
-        width: 300px;
+        width: 90%;
     }
     .weather .search .search-icon{
     
@@ -106,15 +106,18 @@ body{
         font-size: 25px;
     }
     .weather .weather-middle{
-        margin-top: 20px;
+        margin-top: 0px;
     }
    .weather .weather-middle .weather-icon{
-        height: 200px ;
-        width: 200px ;
+        height: 160px ;
+        width: 180px ;
+        object-fit: cover;
     }
    .weather .weather-bottom{
         flex-direction: column;
-    
+         justify-content: center;
+         align-items:none ;
+         padding-top: 20px;
     }
    .weather .weather-bottom .bottom-left{
      padding-top: 0px;
@@ -129,6 +132,9 @@ body{
         height: 40px;
         width: 40px;
     }
+    /* .weather .weather-middle img{
+
+    } */
     .weather .weather-bottom .figures-humidity, .weather .weather-bottom .figures-wind{
         font-size: 25px;
         margin-left: 8px;
@@ -176,9 +182,9 @@ body{
     
 }
 .search input{
-    margin-right: 5px;
+    margin-right: 10px;
     padding: 5px 10px;
-    width: 80%;
+    width: 75%;
     height: 60px;
     border-radius: 18px;
     border: none;
@@ -199,7 +205,7 @@ body{
     width: 60px;
     border-radius: 50%;
     background-color: white;
-    margin-left: 8px;
+    /* margin-left: 10px; */
     border: none;
     outline: none;
     cursor: pointer;
@@ -211,7 +217,7 @@ body{
 
 } */
 .weather-middle{
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: white;
     display: flex;
     flex-direction: column;
@@ -248,6 +254,7 @@ body{
 .weather-bottom img{
     height: 50px;
     width: 50px;
+   
 }
 .figures-humidity, .figures-wind{
     font-size: 30px;
@@ -285,6 +292,6 @@ color: rgb(245, 50, 50);
     }
     100% {
         transform: scale(1.1);
-        box-shadow:0 0 4px 1px blue,0 0 5px 2px blue,0 0 6px 5px blue,0 0 7px 6px blue;
+        box-shadow:0 0 4px 1px rgb(157, 245, 164),0 0 5px 2px rgb(129, 243, 135),0 0 6px 5px rgb(93, 247, 106),0 0 7px 6px rgb(67, 245, 67);
     }
 }
