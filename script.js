@@ -13,10 +13,13 @@ async function checkWeather(city) {
     const response = await fetch(API_URL + city +`&appid=${API_KEY}` )
 
     if (response.status == 404) {
-        document.querySelector(".weather-bottom").style.display="none"
-        document.querySelector(".weather-middle").style.display="none"
+        document.querySelector(".weather-bottom").style.visibility="hidden"
+        document.querySelector(".weather-middle").style.visibility="hidden"
         document.querySelector(".error").style.display="block"
     }else{
+        document.querySelector(".error").style.display="none"
+        document.querySelector(".weather-bottom").style.visibility="visible"
+        document.querySelector(".weather-middle").style.visibility="visible"
         var data =await response.json()
         console.log(data)
     
